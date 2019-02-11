@@ -1,0 +1,128 @@
+/*
+Theme Name: Make Theme enfant
+Description: Theme enfant de Make
+Author: Benoit - WPserveur
+Author URI: https://www.wpserveur.net
+Template: Make
+Version: 0.1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Domine|Open+Sans');
+/*
+GENERAL
+*/
+*{
+    font-size:20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Domine', serif;
+    
+    
+}
+h1 ,input[type="submit"],.entry-author .entry-author-byline a{
+    color: rgb(113, 207, 238);
+}
+p,div,a{
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    
+}
+.es_form_container form p span>input,form p span>textarea,form p input{
+    width:100%;
+    font-size:20px;
+}
+.es_form_container form p input[type="submit"]{
+    font-size:25px;
+}
+#responsive-menu-container{
+    opacity: 0.9;
+    
+}
+#paypal_donations-2 .paypal-donations input[type="image"]{
+    width:100%;
+    margin: 0;
+}
+.paypal-donations input[type="image"]{
+    width:40%;
+    margin: 50px auto;
+
+}
+#email-subscribers-2 input{
+    width:100%;
+    font-size:20px;
+    
+}
+article .entry-content>div>p{
+    margin: 30px 0;
+    text-align:end; 
+}
+.pdb-signup table,.pdb-signup table td,.pdb-signup table tr th{
+    border-style: none;
+    font-weight: 100;
+}
+.pdb-signup tbody tr{
+    display:flex;
+    flex-flow:column;
+}
+.pdb-signup td input{
+    width:100%;
+}
+.pdb-signup .field-group-submit input,.wpcf7-form .wpcf7-submit{ 
+    margin: 40px auto;
+    font-size:20px;
+}
+.wpcf7-form-control-wrap>input{
+    margin: 25px auto;
+}
+#pdb-reason {
+    margin-bottom: 40px;
+    width:100%;
+    background: #e9e9e9;
+    border-style: none;
+    height:50px;
+}
+@media (max-width:380px){
+    body{
+        min-width:300px;
+    }
+    h1{
+        font-size:30px;
+    }
+}
+#footer-2{
+    text-align:center;
+}
+@media (max-width:799px){
+    #builder-section-text_228 form{
+        width:100%;
+        text-align:center;
+    }
+    #builder-section-text_228 .es_textbox input{
+        width:100vw;
+        margin: 10px auto;
+    }
+    #builder-section-text_228 .es_button input{
+        width:85vw;
+        margin: 10px auto;
+        font-size:20px;
+    }
+}
+@media (min-width: 800px){
+    #builder-section-text_228 form{
+        display:flex;
+        align-items:baseline;
+        justify-content:center;
+        position:relative;
+    }
+    #builder-section-text_228 form div{
+        margin: 0 10px;
+    }
+    #builder-section-text_228 form div.es_msg{
+       position:absolute;
+       top:80px;
+       width:60vw;
+       margin: 0 auto;
+    }
+    #builder-section-text_228 .es_button input{
+        font-size:18px;
+    }
+}
