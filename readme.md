@@ -1,7 +1,5 @@
-== 
 wordpress5003-AcmeAssociation
-==
-
+============================
 But du projet
 
 Créer le site d'une association fictive en utilisant wordpress 5
